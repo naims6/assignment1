@@ -1,0 +1,82 @@
+/* Inter Font Import from Goggle Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Raleway Font Import from Goggle Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+:root {
+    /* Colors */
+    --white-color: #fff;
+    --black-color: #000000;
+    --dark-color: #252432e3;
+    --primary-color: #4E47FF;
+    --secondary-color: #25243281;
+
+    /* Site max width */
+    --site-max-width: 1200px;
+
+    /* Font from goggle */
+    --raleway-font: "Raleway", sans-serif;
+}
+
+/* Common CSS Code */
+.section-center {
+    max-width: var(--site-max-width);
+    margin: 0 auto;
+}
+.blue-btn {
+    background: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 12px 36px;
+}
+
+/* Navbar Section */
+main {
+    background: url(../Assets/Hero-bg.png);
+    height: 100vh;
+    width: 100%;
+}
+header {
+    position: fixed;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+nav h1 {
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: 900;
+    font-family: var(--raleway-font);
+    font-weight: bold;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 80px;
+    font-family: var(--raleway-font);
+    color: var(--dark-color);
+    margin-bottom: 37px;
+}
+
+
+
+
