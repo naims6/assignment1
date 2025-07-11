@@ -24,6 +24,9 @@
     /* Font from goggle */
     --raleway-font: "Raleway", sans-serif;
 }
+body {
+    background: #F5F8FF ;
+}
 
 /* Common CSS Code */
 .section-center {
@@ -133,3 +136,56 @@ nav h1 {
     color: var(--dark-color);
     margin-top: 8px;
 }
+/* Productive User SEction DOne */
+.review-section h1 {
+    font-size: 42px;
+    font-family: var(--raleway-font);
+    color: var(--dark-color);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.review {
+    background: #F2EDED;
+    padding: 24px;
+    border: 1px solid #ddd;
+}
+.user-review {
+    display: flex;
+    gap: 15px;
+}
+.review .star-review {
+    display: flex;
+    gap: 3px;
+    overflow: hidden;
+}
+.review .star-review img {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.review-title h2 {
+    color: #000000;
+    font-size: 24px;
+    margin: 24px 0 8px;
+}
+.review-title p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: var(--dark-color);
+}
+.user-info{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.user-info img {
+    width: 45px;
+    border-radius: 50%;
+}
+.user-info .name {
+    color: var(--dark-color);
+}
+
+/* Conferance Section Start */
+
+
