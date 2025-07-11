@@ -213,5 +213,37 @@ nav h1 {
     margin-top: 88px;
 }
 
-
+/* Contact Section Start */
+.contact-section {
+    padding: 70px 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    background: #F5F8FF;
+}
+.contact-section h1 {
+    font-family: var(--raleway-font);
+    color: var(--dark-color);
+    font-size: 97px;
+    font-weight: 300;
+}
+.contact-section form label {
+    margin-bottom: 8px;
+}
+.contact-section form input, textarea {
+    width: 100%;
+    padding: 20px 32px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 15px 0px;
+}
+.contact-section textarea {
+    height: 135px;
+}
+.contact-section button {
+    width: 100%;
+}
+/* Footer Section Start */
 
