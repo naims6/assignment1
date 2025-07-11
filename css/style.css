@@ -39,7 +39,15 @@ body {
     border-radius: 10px;
     border: none;
     outline: none;
-    padding: 12px 36px;
+    padding: 15px 36px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.blue-btn:hover {
+    background: none;
+    border: 2px solid var(--primary-color);
+    color: var(--black-color);
 }
 .m {
     margin-top: 116px;
@@ -69,6 +77,7 @@ nav h1 {
     font-weight: 900;
     font-family: var(--raleway-font);
     font-weight: bold;
+    cursor: pointer;
 }
 .hero {
     display: flex;
@@ -228,22 +237,55 @@ nav h1 {
     font-size: 97px;
     font-weight: 300;
 }
-.contact-section form label {
-    margin-bottom: 8px;
+.contact-section .contact-title {
+    width: 75%;
 }
 .contact-section form input, textarea {
     width: 100%;
-    padding: 20px 32px;
+    padding: 23px 25px;
     border-radius: 10px;
     outline: none;
     border: none;
-    margin: 15px 0px;
+    margin: 18px 0px;
 }
 .contact-section textarea {
     height: 135px;
 }
 .contact-section button {
     width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 /* Footer Section Start */
-
+/* Footer SEction Start */
+footer {
+    background-color: var(--white-color);
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 104px 0px;
+}
+footer h1 {
+    color: var(--primary-color);
+    font-size: 80px;
+    font-weight: 900;
+}
+footer p {
+    font-size: 18px;
+    color: var(--dark-color);
+    margin: 8px 0px 15px;
+    max-width: 50%;
+    line-height: 28px;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+footer ul li a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
